@@ -1,0 +1,93 @@
+/* Undersal Rules */
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#media{
+    margin:auto;
+    width: 100%;
+}
+
+.media-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.media-item{
+    flex: 1 1 200px;
+    max-width: 400px;
+    min-width: 225px;
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.125em;
+    border: 0.05rem solid black;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#team > .media-box > .media-item{
+    max-width: 800px;
+    flex-basis: 800px;
+}
+
+.image{
+    width: 100%;
+    align-self: flex-start;
+    border-bottom: 0.05rem solid black
+}
+
+.media-item p{
+    margin: auto;
+    padding: 0.5rem;
+}
+
+#mission{
+    background-image: url(../images/mission-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20rem;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#mission-statement{
+    background-color: rgba(0, 0, 0, 0.8);
+    align-self: center;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration: underline;
+}
